@@ -1,0 +1,41 @@
+
+
+@font-face {
+  font-family: 'Redressed';
+  src: url('../FONTS/Redressed-Regular.ttf');
+}
+
+#entete {
+font-family: 'Redressed';
+color: white ;
+font-size:35px ;
+}
+
+.cc-navbar {
+  background-color: rgba(0, 0, 0, 0.55);
+  font-family: monospace, sans-serif;
+  box-shadow: 1px 1px 3px rgba(255,255,255,0.54);
+  z-index: 99;
+}
+
+.cc-navbar .nav-link {
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+  padding-bottom: 20px; 
+  border-bottom-color:red ;
+   
+}
+
+.banner {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/EXTERIEUR_01.JPG) center center  fixed 
+   no-repeat;
+   background-size: cover;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
