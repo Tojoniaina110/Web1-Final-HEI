@@ -29,13 +29,46 @@ font-size:35px ;
    
 }
 
+.btn_1 {
+  margin-left: 13em ;
+  margin-top: 2em ;
+  font-family: monospace, sans serif;
+  
+}
+
 .banner {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/EXTERIEUR_01.JPG) center center  fixed 
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(../IMG/EXTERIEUR_01.JPG) center center  fixed 
    no-repeat;
    background-size: cover;
   height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+.card_title1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 4em;
+  font-family: monospace, sans-serif;
+}
+
+.card_txt1 {
+  margin-top: 2.5em;
+  margin-left: 3em;
+  font-size: 22px;
+}
+
+.btn_card1 {
+ margin-left: 15em;
+ margin-top: 2em;
+color: black;
+}
+
+.card_txt2 {
+  margin-top: 2.5em;
+  margin-right: 3em;
+  font-size: 23px;
 
 }
