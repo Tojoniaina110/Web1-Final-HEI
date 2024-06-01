@@ -10,14 +10,24 @@
 }
 
 @font-face {
+  font-family: 'Nunito';
+  src: url('../FONTS/Nunito-Regular.ttf');
+}
+
+@font-face {
   font-family: 'Redressed';
   src: url('../FONTS/Redressed-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../FONTS/Quicksand-Regular.ttf');
+}
+
 #entete {
-font-family: 'Redressed';
+font-family: 'Nunito';
 color: white ;
-font-size:35px ;
+font-size:32px ;
 }
 
 .cc-navbar {
@@ -34,9 +44,12 @@ font-size:35px ;
 
 .cc-navbar .nav-link:hover{
   padding-bottom: 20px; 
-  border-bottom-color:red ;
+  border-bottom-color:#f33cfc ;
    
 }
+
+
+
 
 .btn_1 {
   margin-left: 13em ;
@@ -45,8 +58,13 @@ font-size:35px ;
   
 }
 
+.btn_1:hover {
+  transform: scale(1.05);
+  transition: 500ms linear;
+}
+
 .banner {
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(../IMG/EXTERIEUR_01.JPG) center center  fixed 
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/EXTERIEUR_01.JPG) center center  fixed 
    no-repeat;
    background-size: cover;
   height: 800px;
@@ -59,6 +77,8 @@ font-size:35px ;
 .chmb {
   display: flex;
   flex-direction: row;
+  font-family: 'Nunito';
+  font-size: 45px;
   justify-content: center;  
   margin: 1em auto ;
 
@@ -68,7 +88,7 @@ font-size:35px ;
   font-weight: bold;
   font-size: 30px;
   margin-left: 4em;
-  font-family: monospace, sans-serif;
+  font-family:'Quicksand', sans-serif;
 }
 
 .card_txt1 {
@@ -88,4 +108,23 @@ color: black;
   margin-right: 3em;
   font-size: 23px;
 
+}
+
+.cuisine h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1.5em auto;
+}
+.container_cui {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  margin: 0 auto ;
+  gap: 5em;
+ 
+}
+
+#spc {
+  font-family: 'Nunito';
+  font-size: 45px;
 }
