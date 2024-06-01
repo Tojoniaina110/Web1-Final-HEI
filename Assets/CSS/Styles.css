@@ -44,16 +44,11 @@ font-size:32px ;
 
 .cc-navbar .nav-link:hover{
   padding-bottom: 20px; 
-  border-bottom-color:#f33cfc  ;
+  border-bottom-color:#f33cfc ;
    
 }
 
-#header {
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  
-}
+
 
 
 .btn_1 {
@@ -65,7 +60,7 @@ font-size:32px ;
 
 .btn_1:hover {
   transform: scale(1.05);
-  transition: 500ms;
+  transition: 500ms linear;
 }
 
 .banner {
