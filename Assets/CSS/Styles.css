@@ -127,4 +127,13 @@ color: black;
 #spc {
   font-family: 'Nunito';
   font-size: 45px;
+  color: white;
+  }
+
+.teacher {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../IMG/EXTERIEUR_15.JPG) center center  fixed 
+   no-repeat;
+   background-size: cover;
+  height: 800px;
+  
 }
