@@ -1,5 +1,14 @@
 
 
+.cdd {
+  color:#74bc44 ;
+  color:#f33cfc ;
+  color:#945bfc ;
+  color:#a6d284 ;
+  color: #d450ff;
+  color: #f46cfc;
+}
+
 @font-face {
   font-family: 'Redressed';
   src: url('../FONTS/Redressed-Regular.ttf');
@@ -44,6 +53,14 @@ font-size:35px ;
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+.chmb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  margin: 1em auto ;
 
 }
 
